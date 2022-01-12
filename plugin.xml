@@ -13,6 +13,7 @@
 			</feature>
 		</config-file>
 		<config-file parent="/*" target="AndroidManifest.xml" />
+        <resource-file src="src/android/libs" target="libs/navigation-core-v0.11.0.aar" />
 		<source-file src="src/android/SumeruMapmyIndia.java" target-dir="src/cordova/plugin/sumerumapmyindia/SumeruMapmyIndia" />
 	</platform>
 	<platform name="ios">
